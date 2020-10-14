@@ -1,5 +1,5 @@
 import React from "react";
-import IconBox from "../../iconBox";
+import IconBox from "../../components/iconBox";
 
 function Subscribers() {
   return (
