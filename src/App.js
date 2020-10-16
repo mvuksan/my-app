@@ -28,19 +28,31 @@ export default function App() {
               <p>Subscribers</p>
             </NavLink>
             <NavLink activeClassName="active" to="/networks">
-              <img />
+              <img
+                src={require("./assets/images/Shape-4.png")}
+                alt="Netwrok icon"
+              />
               <p>Networks</p>
             </NavLink>
             <NavLink activeClassName="active" to="/ipsplans">
-              <img />
+              <img
+                src={require("./assets/images/Shape-5.png")}
+                alt="IPS Plans icon"
+              />
               <p>IPSplans</p>
             </NavLink>
             <NavLink activeClassName="active" to="/taskmanager">
-              <img />
+              <img
+                src={require("./assets/images/Shape-2.png")}
+                alt="Task manager icon"
+              />
               <p>Task Manager</p>
             </NavLink>
             <NavLink activeClassName="active" to="/scriptlibrary">
-              <img />
+              <img
+                src={require("./assets/images/Shape-1.png")}
+                alt=" Script library icon"
+              />
               <p>Tot Library</p>
             </NavLink>
             <Switch>
