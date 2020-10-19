@@ -55,6 +55,8 @@ export default function App() {
               />
               <p>Tot Library</p>
             </NavLink>
+            </div>
+            </div>
             <Switch>
               <Route path="/subscribers">
                 <Subscribers />
@@ -73,8 +75,8 @@ export default function App() {
               </Route>
             </Switch>
           </div>
-        </div>
-      </div>
+      
+      
     </Router>
   );
 }
