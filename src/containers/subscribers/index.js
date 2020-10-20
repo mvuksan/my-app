@@ -1,5 +1,6 @@
 import React from "react";
 import IconBox from "../../component/iconBox";
+import SubscribersUtilization from "../../component/subscribersUtilization";
 
 function Subscribers() {
   return (
@@ -8,6 +9,9 @@ function Subscribers() {
         <IconBox />
         <IconBox />
         <IconBox />
+      </div>
+      <div className="ui-center-content">
+        <SubscribersUtilization />
       </div>
     </div>
   );

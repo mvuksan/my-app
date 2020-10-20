@@ -28,4 +28,12 @@ code {
 }
 .ui-top-content {
   margin-left: 220px;
+  width: 100%;
+  background: #fafafa;
+  min-height: 200vh;
+  overflow: hidden;
+}
+
+.ui-top-boxes {
+  display: flex;
 }
