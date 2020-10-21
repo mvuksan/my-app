@@ -1,15 +1,20 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.15px;
+  color: #555;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+h2,
+h3,
+h1,
+p {
+  margin: 0;
+}
+
+.ui-flex {
+  display: flex;
 }
 .ui-layout {
   display: flex;
@@ -22,6 +27,48 @@ code {
   min-height: 100vh;
   position: fixed;
 }
+.ui-logo-box {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  height: 80px;
+  margin-top: 15px;
+}
+.ui-logo-wrapper {
+  border: 2px solid #dddddd;
+  padding: 8px;
+  border-radius: 10px;
+  margin-right: 8px;
+}
+.ui-logo-small {
+  width: 21px;
+  height: 21px;
+}
+.ui-logo-label {
+  font-weight: 600;
+  color: #444;
+  font-size: 17px;
+}
+
+.ui-vertical-menu a {
+  color: #444444;
+  text-decoration: none;
+  padding: 8px 16px 8px 16px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  height: 20px;
+}
+
+.ui-menu-label {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 0 0 8px 16px;
+  color: #6b6b6b;
+  font-size: 10px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
 .ui-vertical-menu img {
   margin-right: 10px;
   width: 19px;
@@ -36,4 +83,14 @@ code {
 
 .ui-top-boxes {
   display: flex;
+}
+
+.ui-vertical-menu a:hover {
+  background-color: #eeeeee;
+  border-right: 4px solid #5f72ff;
+}
+
+.active {
+  background-color: #eeeeee;
+  border-right: #5f72ff;
 }
